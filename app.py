@@ -32,5 +32,5 @@ def webhook():
         "fulfillmentText": response_text
     })
 
-if name == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
